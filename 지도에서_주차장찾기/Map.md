@@ -33,7 +33,7 @@ TEAM: 9 in SWE, CAUCSE 2021. Mapping part
   * * * 
 ### Use Case Diagram
 
-![UseCase](./지도에서_주차장찾기/Use Case.png)
+![UseCase](https://user-images.githubusercontent.com/49308460/114367015-fadbe400-9bb6-11eb-9ed3-87747ede0550.png)
 
 
 * * * 
