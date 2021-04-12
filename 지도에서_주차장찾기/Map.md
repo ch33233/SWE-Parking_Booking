@@ -30,6 +30,9 @@ TEAM: 9 in SWE, CAUCSE 2021. Mapping part
 |UC-7|영업 스케줄 선택|영업을 하지 않을 날을 달력 형식의 UI에서 선택할 수 있다|  
 |UC-8|피드백 확인 버튼|User들이 제출한 피드벡을 확인할 수 있는 페이지로 이동한다| 
   
+  * * * 
+### Use Case Diagram
+![UseCase](./Use Case.png)
   
 * * * 
 ### Traceabitility matrix between User Case And Requirement  
