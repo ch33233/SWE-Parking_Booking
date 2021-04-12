@@ -32,9 +32,10 @@ TEAM: 9 in SWE, CAUCSE 2021. Mapping part
   
   * * * 
 ### Use Case Diagram
-https://user-images.githubusercontent.com/49308460/114367015-fadbe400-9bb6-11eb-9ed3-87747ede0550.png)
 
-  
+![UseCase](./지도에서_주차장찾기/Use Case.png)
+
+
 * * * 
 ### Traceabitility matrix between User Case And Requirement  
   
