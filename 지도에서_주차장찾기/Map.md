@@ -62,4 +62,45 @@ TEAM: 9 in SWE, CAUCSE 2021. Mapping part
   
   
 * * * 
+
+### Domain Model about Use Cases  
+
+#### Use case 6  
+
+![UC6](./Image/UC6.png)  
+
+#### Use case 7  
+
+![UC7](./Image/UC7.png)  
+
+##### Use case 8  
+
+![UC8](./Image/UC8.png)  
+#### Use case 9
+
+![UC9](./Image/UC9.png)  
+
+* * * 
+
+### User Interface Example  
+
+### Before LogIn  
+
+![BeforeLogIn](./Image/BeforeLogIn.png)
+* * * 
+
+### After LogIn (User)
+
+![AfterLogInUser](./Image/AfterLogInUser.png)
+* * * 
+
+### After LogIn (관리자)
+
+![AfterLogIn](./Image/AfterLogIn.png)
+* * * 
+
+### LogIn Page  
+
+![LogInPage](./Image/LogInPage.png)
+* * * 
    
