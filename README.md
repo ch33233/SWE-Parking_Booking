@@ -55,7 +55,3 @@
  전통적인 개발 방법을 원활하게 사용할 수 있는 유사한 종류의 프로젝트를 경험해본 개발자를 보유하지 않고 있다.
 
 클라이언트가 개발에 적극적으로 관여하게 해달라고 요구하였다.
-
-# Subsystem UI
-
-https://ovenapp.io/project/jZhEGVXBXQTM0ExQE39GRBLhcL7isKD9#7GCno
