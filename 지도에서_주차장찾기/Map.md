@@ -65,6 +65,26 @@ TEAM: 9 in SWE, CAUCSE 2021. Mapping part
 
 ### Domain Model about Use Cases  
 
+#### Use case 1
+
+![UC1](./Image/UC1.png)  
+
+#### Use case 2
+
+![UC2](./Image/UC2.png)  
+
+#### Use case 3
+
+![UC3](./Image/UC3.png)  
+
+#### Use case 4
+
+![UC4](./Image/UC4.png)  
+
+#### Use case 5  
+
+![UC5](./Image/UC5.png)  
+
 #### Use case 6  
 
 ![UC6](./Image/UC6.png)  
