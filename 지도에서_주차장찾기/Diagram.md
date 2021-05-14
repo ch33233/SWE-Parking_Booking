@@ -3,6 +3,10 @@
 * * * 
 
 ## Sequence Diagram
+### UseCase 1
+![UC1](./DiagramImage/usecase1_1.png)
+### UseCase 4
+![UC1](./DiagramImage/usecase4_1.png)
 ### UseCase 5(1)
 ![UC1](./DiagramImage/usecase5_1.png)  
 ### UseCase 5(2)
@@ -13,6 +17,10 @@ UseCase_5(1)은 Controller를 싱글톤패턴을 사용해서 구현할 가능�
 * * * 
 
 ## Class Diagram
+### UseCase 1
+![UC1](./DiagramImage/usecase1_2.png)
+### UseCase 4
+![UC1](./DiagramImage/usecase4_2.png)
 ### UseCase 5(1)
 ![UC1](./DiagramImage/usecase5_1_2.png) 
 ### UseCase 5(2)
