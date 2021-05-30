@@ -26,7 +26,7 @@ class CheckTime:
     def isValid(self, time, parkingSlot): # data 삭제
         start = float(time.hour)
         end = start + float(time.renthour)
-        if start < parkingSlot.openHour or end > parkingSlot.closeHour:
+        if (start < parkingSlot.openHour or end > parkingSlot.closeHour) or (start > parkingSlot.closeHour or end < parkingSlot.openHour):
             return 0
         else:
             return 1
@@ -95,24 +95,27 @@ date = input("Input date: ")
 time = input("Input time: ")
 hour = input("Input rent hour: ")
 
+# ==== Get business hour from virtual DB ====
 parkingSlot = TimeDatabaseConnection()
 
 NewTime1 = Time(date, time, hour)
+
+# ==== Check valid time ====
 if(not CheckTime(NewTime1, parkingSlot)):
-    print("invalid time, please choose time again data.")
+    print("invalid time, please choose another time.")
 else:
     print("valid time, next step..")
 # ==== Suppose that verified this time in Use Case 1 ====
-NewTime = Time(date, time, hour)
-DB = DatabaseConnection()
+    NewTime = Time(date, time, hour)
+    DB = DatabaseConnection()
 
-EmptySlot = DB.SearchTimeQuery(customer, NewTime, NumSlot)
-slot = []
-for i in range(1,NumSlot+1):
-    if i in EmptySlot:
-        slot.append(Slot(i,'green'))
-    else:
-        slot.append(Slot(i,'red'))
-ShowWindow = InsideMaker()
-ShowWindow.Rendering(slot,NumSlot)
+    EmptySlot = DB.SearchTimeQuery(customer, NewTime, NumSlot)
+    slot = []
+    for i in range(1,NumSlot+1):
+        if i in EmptySlot:
+            slot.append(Slot(i,'green'))
+        else:
+            slot.append(Slot(i,'red'))
+    ShowWindow = InsideMaker()
+    ShowWindow.Rendering(slot,NumSlot)
 
